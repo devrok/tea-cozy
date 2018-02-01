@@ -10,10 +10,13 @@ html {
 
 /* ---- HEADER styles ---- */
 header {
+  top: 0;
+  left:0;
   height: 69px;
   border-bottom: 1px solid seashell;
   z-index: 10;
   position: fixed;
+  background-color: black;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -43,7 +46,76 @@ nav span {
 
 /* ---- CONTENT styles ---- */
 .contentcontainer {
-  padding: 0 40px;
+  position: relative;
+  top: 70px;
+  /* padding: 0 40px; */
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ---- MISSION styles ---- */
+.containermission {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+.innercontainer {
+  display: flex;
+  width: 100%;
+
+}
+.innercontainer.mission {
+  background-color: black;
+  height: 100px;
+}
+
+.innercontainer.column {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.innercontainer.row {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.innercontainer h2 {
+  /* margin-top: 20px; */
+  /* display: inline-block; */
+  margin: 0 0 10px 0;
+}
+
+.innercontainer h4 {
+  /* margin-bottom: 20px; */
+  /* display: inline-block; */
+  margin: 0;
+}
+
+/* ---- PRODUCTS styles ---- */
+.containerproducts {
+  margin-top: 50px;
+  width: 1000px;
+}
+
+.productcontainer {
+  margin: 10px 10px 10px 10px;
+}
+
+.productcontainer img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
 }
 
 /* ---- FOOTER styles ---- */
+
+/* ---- background images ---- */
+.background01 {
+  background: url("../images/img-mission-background.jpg");
+}
