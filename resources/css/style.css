@@ -1,0 +1,49 @@
+/* ---- base styles ---- */
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* ---- HEADER styles ---- */
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headerlogo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.headerlogo img {
+  height: 50px;
+}
+
+header nav {
+  padding-right: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+/* ---- CONTENT styles ---- */
+.contentcontainer {
+  padding: 0 40px;
+}
+
+/* ---- FOOTER styles ---- */
