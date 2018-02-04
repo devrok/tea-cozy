@@ -150,15 +150,6 @@ nav a span {
 }
 
 /* ---- FOOTER styles ---- */
-
-/* .containerfooter {
-  margin-top: 50px;
-  position: absolute;
-  left: 0;
-  margin-left: 20px;
-  text-align: left;
-} */
-
 footer {
   width: 100%;
   position: absolute;
@@ -174,4 +165,5 @@ footer {
 
 .background02 {
   background: url("../images/img-locations-background.jpg");
+  /* background-size: cover; */
 }
